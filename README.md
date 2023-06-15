@@ -11,9 +11,7 @@ To explore our findings further, please visit our [Tableau Dashboard](#), our [L
 ## Business Problem
 
 
-## Data
-
-### Data Understanding and Analysis
+## Data Understanding and Analysis
 
 ### Data Exploration
 
