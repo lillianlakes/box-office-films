@@ -15,7 +15,7 @@ To explore our findings further, please visit our [Tableau Dashboard](#), our [L
 
 ### Data Exploration
 
-### Data Analysis 
+### Data Analysis
 
 
 ## Methods
