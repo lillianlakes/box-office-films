@@ -1,4 +1,4 @@
-# Box Office Films Analyss
+# Box Office Films Analysis
 Authors: Stuart Clark, Lillian Lakes, and Madeleine Smithers
 
 
@@ -32,4 +32,4 @@ To explore our findings further, please visit our [Tableau Dashboard](#), our [L
 ### Next Steps
 
 
-### Repository Contents
+## Repository Contents
