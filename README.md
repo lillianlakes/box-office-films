@@ -1,7 +1,7 @@
 ![Thunderhouse Films](images/GH_Header.png)
 
 # Thunderhouse Films Box Office Analysis
-Authors: 
+Authors and Contact Information: 
 - [Lillian Lakes](https://github.com/lillianlakes) [(GitHub Lead)](https://www.linkedin.com/in/lillianlakes/)
 - [Madeleine Smithers](https://github.com/MaddieSmithers) [(Technical Lead)](https://www.linkedin.com/in/madeleinesmithers/034123/)
 - [Stuart Clark](https://github.com/sclarkHOUis-project/tree/Stuart) [(Presentation Lead)](https://www.linkedin.com/in/stuart-clark-185034123/)
@@ -9,10 +9,6 @@ Authors:
 
 ## For More Information
 To explore our findings further, please review the full analysis in the [Jupyter Notebook](box_office_analysis.ipynb) or view our [Project Deck](box_office_presentation.pdf). 
-
-See  this presentation.
-
-For additional info, contact Alison Peebles Madigan at alison.peeblesmadigan@flatironschool.com
 
 ## Overview
 
