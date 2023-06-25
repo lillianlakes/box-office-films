@@ -64,8 +64,8 @@ In addition, we would like to further analyze some of the most successful horror
 ## Repository Contents
 
     .
-    ├── data                          # Directory containing original zipped data files and cleaned master data CSV
-    │   │
+    ├── data                          # Directory containing original zipped data files and cleaned
+    │   │                             # master data CSV
     │   ├── zippedData
     │   │   ├── bom.movie_gross.csv.gz
     │   │   ├── rt.movie_info.tsv.gz
@@ -75,8 +75,8 @@ In addition, we would like to further analyze some of the most successful horror
     │   │    
     │   └── movie_data.csv
     │    
-    ├── images                        # Directory containing files used in final Jupyter Notebook and README.md files
-    │   │
+    ├── images                        # Directory containing files used in final Jupyter Notebook and
+    │   │                             # README.md files
     │   ├── GH_Header.png
     │   ├── IT_Header.png
     │   ├── genre_roi_by_budget.png
@@ -84,8 +84,8 @@ In addition, we would like to further analyze some of the most successful horror
     │   ├── regression_budget_sales.png
     │   └── release_month_by_roi_mid_horror.png  
     │
-    ├── working-notebooks             # Directory containing Jupyter Notebook files from all team members
-    │   │
+    ├── working-notebooks             # Directory containing Jupyter Notebook files from all team 
+    │   │                             # members
     │   ├── data-analysis-lillian.ipynb
     │   ├── data-analysis-maddie-1.ipynb
     │   ├── data-analysis-maddie-2.ipynb
