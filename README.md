@@ -8,7 +8,11 @@ Authors:
 
 
 ## For More Information
-To explore our findings further, please view our [Project Deck](box_office_presentation.pdf). 
+To explore our findings further, please review the full analysis in the [Jupyter Notebook](box_office_analysis.ipynb) or view our [Project Deck](box_office_presentation.pdf). 
+
+See  this presentation.
+
+For additional info, contact Alison Peebles Madigan at alison.peeblesmadigan@flatironschool.com
 
 ## Overview
 
@@ -40,6 +44,9 @@ We delved deeper into the mid-budget horror category to identify the best time t
 
 ![Bar Chart of Release Month by Median ROI for the Mid-Budget Horror Category showing October has the Highest ROI](images/release_month_by_roi_mid_horror.png)
 
+We used ROI for our analysis, and calculated this using worldwide gross sales and production budget data, so for our regression model, we wanted to compare how well production budget predicts worldwide gross sales. Our regression model far exceeded a base model that predicts a mean gross sales of $134 million. It shows a strong positive correlation between worldwide gross sales and production budget, with a R-squared value suggesting that our model explains 62% of the relationship between the production budget and gross sales. Our coefficient on the exogenous variable X is statistically significant, and suggests that a $1 million increase in production budget leads to a $3.26 million increase in worldwide gross sales. This models highlights the fact that mid-budget films are preferred over low-budget films, leading to more attractive worldwide gross sales.
+
+![Regression Model of Worldwide Gross Sales on Production Budget showing a Strong Positive Correlation](images/regression_budget_sales.pngg)
 
 ## Conclusions
 Horror Films Bring in Scary High ROIs 
