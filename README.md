@@ -16,7 +16,7 @@ This project presents an analysis of past film data that aims to provide concret
 
 ## Business Problem
 
-Entering the movie business requires a certain level of risk and capital allocation. By analyzing data of past films, we hope to devise a strategy that will make the most effective use of each dollar our client spends as a new film studio. The most important metric in this case is the Return on Investment (ROI) from each film, since producing a film is an expensive endeavor and we want to ensure the payoff is maximized. We saw three main categories that a new entrant into the industry would need to consider. These include how much to spend on a film, what genre to produce, and when to release the film. We first start off by segmenting the market into low, mid, and high-budget films, as these three segments all differ in their optimal strategy. We then use the main genre associated with each film to look across our market segments for the highest median ROI, in order to account for outliers. Finally, we assess the best time to release a film by analyzing our top genre across each month of the year to find where films repeatedly yield high returns. 
+Entering the movie business requires a certain level of risk and capital allocation. By analyzing data of past films, we hope to devise a strategy that will make the most effective use of each dollar our client spends as a new film studio. The most important metric in this case is the Return on Investment (ROI) from each film, since producing a film is an expensive endeavor and we want to ensure the payoff is maximized. We saw three main categories that a new entrant into the industry would need to consider. These include how much to spend on a film, what genre to produce, and when to release the film. We first start off by segmenting the market into low, mid, and high-budget films, as these three segments all differ in their optimal strategy. We then use the main genre associated with each film to look across our market segments for the highest median ROI, in order to account for outliers. Finally, we assess the best time to release a film by analyzing our top genre across each month of the year to find when films have repeatedly yielded high returns. 
 
 ## Data Understanding
 
@@ -24,7 +24,7 @@ Our initial data comprised of datasets from [Box Office Mojo](https://www.boxoff
 
 ## Methods
 
-This project uses descriptive analysis, including snapshots of top movies and top genres by median ROI for each budget category and a display of median ROI by month of release for the mid-budget horror category, to support our recommendations. We decided to use ROI because this is a film industry standard when analyzing alternative projects. We also ran a regression to show how much variation in worldwide gross sales is explained by production budget and further support our decision to use ROI as a metric since we calculate ROI as worldwide gross sales divided by production budget multiplied by 100.
+This project uses descriptive analysis, including snapshots of top movies and top genres by median ROI for each budget category and a display of median ROI by month of release for the mid-budget horror category, to support our recommendations. We decided to use ROI because this is a [film industry standard when analyzing alternative projects](https://www.linkedin.com/pulse/how-can-one-calculate-roi-when-investing-movies-sharad-patel/). We also ran a regression to show how much variation in worldwide gross sales is explained by production budget and further support our decision to use ROI as a metric since we calculate ROI as worldwide gross sales divided by production budget multiplied by 100.
 
 ## Results
 
@@ -53,7 +53,7 @@ From our analysis of the data provided, we can conclude that horror movies in th
 
 However, a new film studio might not be prepared to take on the financial risks associated with high budget films. Therefore, we can confidently recommend a new film studio to start with low-budget horror films, as the horror genre still performed the best in terms of ROI for the low-budget range. This way, the studio can gain experience in the industry comfortability with their production and release strategies before taking on more expensive horror projects. 
 
-With more experience, Thunderhouse Films can aspire to create box office successes such as the movie, It, which was the highest grossing horror movie between 2010 and 2019, with a production budget of only $35 million. 
+With more experience, Thunderhouse Films can aspire to create box office successes such as the movie, [It](https://www.imdb.com/title/tt1396484/), which was the highest grossing horror movie between 2010 and 2019, with a production budget of only $35 million. 
 
 ### Next Steps
 
