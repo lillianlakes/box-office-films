@@ -24,9 +24,21 @@ Our initial data comprised of datasets from [Box Office Mojo](https://www.boxoff
 
 ## Methods
 
-This project uses descriptive analysis, including snapshots of top movies and top genres by median ROI for each budget category and a display of median ROI by month of release for the mid-budget horror category, to support our recommendations. We also ran a regression to show how much variation in worldwide gross sales is explained by production budget and support our decision to use ROI as a metric since we calculated ROI as worldwide gross sales divided by production budget multiplied by 100.
+This project uses descriptive analysis, including snapshots of top movies and top genres by median ROI for each budget category and a display of median ROI by month of release for the mid-budget horror category, to support our recommendations. We decided to use ROI because this is a film industry standard when analyzing alternative projects. We also ran a regression to show how much variation in worldwide gross sales is explained by production budget and further support our decision to use ROI as a metric since we calculate ROI as worldwide gross sales divided by production budget multiplied by 100.
 
 ## Results
+
+To figure out what might be an optimal budget range to spend on a movie, we looked at the ROI by production budget. The below chart shows the ROI for the top five films in each of our three budget categories. The mid and low budget categories outperform high, with the horror genre clearly dominating both budget categories as the most lucrative investment.
+
+![Bar Chart of Top Five Movies by Median ROI for each Budget showing the Most Lucrative Investment is Horror](images/movie_roi_by_budget.png)
+
+Next, we looked at the median ROI by genre to figure out what types of genres are most profitable. Again, horror movies stand out, with the mid-budget category having the highest ROI of all. Especially for budgets below $50M, the horror genre is the way to go with the highest return.
+
+![Bar Chart of Top Three Genres by Median ROI for each Budget showing the Mid-Budget Horror Category has the Highest Return](images/genre_roi_by_budget.png)
+
+We delved deeper into the mid-budget horror category to identify the best time to release by analyzing median ROI by month. We found that October is an optimal time to release, which makes sense because this is right around Halloween. For the mid-budget horror genre, we recommend targeting marketing and timing towards an early October release to capitalize on the high return around Halloween.
+
+![Bar Chart of Release Month by Median ROI for the Mid-Budget Horror Category showing October has the Highest ROI](images/release_month_by_roi_mid_horror.png)
 
 
 ## Conclusions
