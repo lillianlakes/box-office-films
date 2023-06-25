@@ -45,7 +45,7 @@ We used ROI for our analysis, and calculated this using worldwide gross sales an
 ![Regression Model of Worldwide Gross Sales on Production Budget showing a Strong Positive Correlation](images/regression_budget_sales.png)
 
 ## Conclusions
-### ==Horror Films Bring in Scary High ROIs==
+***<p style="text-align: center;">Horror Films Bring in Scary High ROIs</p>***
 ![Clown from 'It' movie](images/IT_Header.png)
 
 From our analysis of the data provided, we can conclude that horror movies in the mid-budget range released in the month of October will most likely have the highest ROI. From looking at our regression model, we can also conclude that a high production budget has a signficant impact on worldwide gross sales. 
