@@ -28,27 +28,36 @@ This project uses descriptive analysis, including snapshots of top movies and to
 
 ## Results
 
-To figure out what might be an optimal budget range to spend on a movie, we looked at the ROI by production budget. The below chart shows the ROI for the top five films in each of our three budget categories. The mid and low budget categories outperform high, with the horror genre clearly dominating both budget categories as the most lucrative investment.
+To figure out what might be an optimal budget range to spend on a movie, we looked at the ROI by production budget. The below chart shows the ROI for the top five films in each of our three budget categories. **The mid and low budget categories outperform high, with the horror genre clearly dominating both budget categories as the most lucrative investment**.
 
 ![Bar Chart of Top Five Movies by Median ROI for each Budget showing the Most Lucrative Investment is Horror](images/movie_roi_by_budget.png)
 
-Next, we looked at the median ROI by genre to figure out what types of genres are most profitable. Again, horror movies stand out, with the mid-budget category having the highest ROI of all. Especially for budgets below $50M, the horror genre is the way to go with the highest return.
+Next, we looked at the median ROI by genre to figure out what types of genres are most profitable. Again, horror movies stand out, with the mid-budget category having the highest ROI of all. **Especially for budgets below $50M, the horror genre is the way to go with the highest return**.
 
 ![Bar Chart of Top Three Genres by Median ROI for each Budget showing the Mid-Budget Horror Category has the Highest Return](images/genre_roi_by_budget.png)
 
-We delved deeper into the mid-budget horror category to identify the best time to release by analyzing median ROI by month. We found that October is an optimal time to release, which makes sense because this is right around Halloween. For the mid-budget horror genre, we recommend targeting marketing and timing towards an early October release to capitalize on the high return around Halloween.
+We delved deeper into the mid-budget horror category to identify the best time to release by analyzing median ROI by month. We found that October is an optimal time to release, which makes sense because this is right around Halloween. **For the mid-budget horror genre, we recommend targeting marketing and timing towards an early October release to capitalize on the high return around Halloween**.
 
 ![Bar Chart of Release Month by Median ROI for the Mid-Budget Horror Category showing October has the Highest ROI](images/release_month_by_roi_mid_horror.png)
 
-We used ROI for our analysis, and calculated this using worldwide gross sales and production budget data, so for our regression model, we wanted to compare how well production budget predicts worldwide gross sales. Our regression model far exceeded a base model that predicts a mean gross sales of $134 million. It shows a strong positive correlation between worldwide gross sales and production budget, with a R-squared value suggesting that our model explains 62% of the relationship between the production budget and gross sales. Our coefficient on the exogenous variable X is statistically significant, and suggests that a $1 million increase in production budget leads to a $3.26 million increase in worldwide gross sales. This models highlights the fact that mid-budget films are preferred over low-budget films, leading to more attractive worldwide gross sales.
+We used ROI for our analysis, and calculated this using worldwide gross sales and production budget data, so for our regression model, we wanted to compare how well production budget predicts worldwide gross sales. Our regression model far exceeded a base model that predicts a mean gross sales of $134 million. It shows a strong positive correlation between worldwide gross sales and production budget, with a R-squared value suggesting that our model explains 62% of the relationship between the production budget and gross sales. Our coefficient on the exogenous variable X is statistically significant, and suggests that a $1 million increase in production budget leads to a $3.26 million increase in worldwide gross sales. **This models highlights the fact that mid-budget films are preferred over low-budget films, leading to more attractive worldwide gross sales**.
 
 ![Regression Model of Worldwide Gross Sales on Production Budget showing a Strong Positive Correlation](images/regression_budget_sales.png)
 
 ## Conclusions
-Horror Films Bring in Scary High ROIs 
+### ==Horror Films Bring in Scary High ROIs==
 ![Clown from 'It' movie](images/IT_Header.png)
+
+From our analysis of the data provided, we can conclude that horror movies in the mid-budget range released in the month of October will most likely have the highest ROI. From looking at our regression model, we can also conclude that a high production budget has a signficant impact on worldwide gross sales. 
+
+However, a new film studio might not be prepared to take on the financial risks associated with high budget films. Therefore, we can confidently recommend a new film studio to start with low-budget horror films, as the horror genre still performed the best in terms of ROI for the low-budget range. This way, the studio can gain experience in the industry comfortability with their production and release strategies before taking on more expensive horror projects. 
+
+With more experience, Thunderhouse Films can aspire to create box office successes such as the movie, It, which was the highest grossing horror movie between 2010 and 2019, with a production budget of only $35 million. 
 
 ### Next Steps
 
+In order to account for the previously mentioned data limitations, we would like to continue our analysis with more information on the costs and revenue streams associated with producing and releasing a film. We would want to look at costs such as distribution, studio overhead, and marketing. Additional revenue streams to explore might include DVD sales, streaming, and licensing deals. Through this, we could get a more accurate look at the ROI of each film. 
+
+In addition, we would like to further analyze some of the most successful horror films to find out what made them such box office hits. Factors such as marketing strategy, source material, or creators involved could prove very insightful. 
 
 ## Repository Contents
