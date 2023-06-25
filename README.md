@@ -45,7 +45,8 @@ We used ROI for our analysis, and calculated this using worldwide gross sales an
 ![Regression Model of Worldwide Gross Sales on Production Budget showing a Strong Positive Correlation](images/regression_budget_sales.png)
 
 ## Conclusions
-### Horror Films Bring in Scary High ROIs
+<h3 align="center">Horror Films Bring in Scary High ROIs</h3>
+
 ![Clown from 'It' movie](images/IT_Header.png)
 
 From our analysis of the data provided, we can conclude that horror movies in the mid-budget range released in the month of October will most likely have the highest ROI. From looking at our regression model, we can also conclude that a high production budget has a signficant impact on worldwide gross sales. 
@@ -61,3 +62,38 @@ In order to account for the previously mentioned data limitations, we would like
 In addition, we would like to further analyze some of the most successful horror films to find out what made them such box office hits. Factors such as marketing strategy, source material, or creators involved could prove very insightful. 
 
 ## Repository Contents
+
+    .
+    ├── data                          # Directory containing original zipped data files and cleaned master data CSV
+    │   │
+    │   ├── zippedData
+    │   │   ├── bom.movie_gross.csv.gz
+    │   │   ├── rt.movie_info.tsv.gz
+    │   │   ├── rt.reviews.tsv.gz
+    │   │   ├── tmdb.movies.csv.gz  
+    │   │   └── tn.movie_budgets.csv.gz  
+    │   │    
+    │   └── movie_data.csv
+    │    
+    ├── images                        # Directory containing files used in final Jupyter Notebook and README.md files
+    │   │
+    │   ├── GH_Header.png
+    │   ├── IT_Header.png
+    │   ├── genre_roi_by_budget.png
+    │   ├── movie_roi_by_budget.png
+    │   ├── regression_budget_sales.png
+    │   └── release_month_by_roi_mid_horror.png  
+    │
+    ├── working-notebooks             # Directory containing Jupyter Notebook files from all team members
+    │   │
+    │   ├── data-analysis-lillian.ipynb
+    │   ├── data-analysis-maddie-1.ipynb
+    │   ├── data-analysis-maddie-2.ipynb
+    │   ├── data-analysis-stuart-1.ipynb
+    │   ├── data-analysis-stuart-2.ipynb
+    │   └── data-analysis-stuart-2.ipynb
+    │    
+    ├── .gitignore                    # Text document listing directories and files to ignore
+    ├──  README.md                    # This document
+    ├── box_office_analysis.ipynb     # Final narrative notebook of data analysis 
+    └── box_office_presentation.pdf   # PDF version of presentation slides
