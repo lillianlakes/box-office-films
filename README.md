@@ -8,7 +8,7 @@ Authors and Contact Information:
 
 
 ## For More Information
-To explore our findings further, please review the full analysis in the [Jupyter Notebook](box_office_analysis.ipynb) or view our [Project Deck](box_office_presentation.pdf). 
+To explore our findings further, please review the full analysis in the [Jupyter Notebook](box_office_analysis.ipynb), watch our [Live Project Presentation](https://www.youtube.com/watch?v=DiwR5AbSfbA&t=887s) or view our [Project Deck](box_office_presentation.pdf). 
 
 ## Overview
 
